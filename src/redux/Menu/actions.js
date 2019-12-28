@@ -1,0 +1,10 @@
+const actions = {
+    CATEGORY : 'CATEGORY',
+    CATEGORY_SUCCESS : 'CATEGORY_SUCCESS',
+    CATEGORY_FAILURE : 'CATEGORY_FAILURE',
+    MENU : 'MENU',
+    MENU_SUCCESS : 'MENU_SUCCESS',
+    MENU_FAILURE : 'MENU_FAILURE',
+};
+
+export default actions;

@@ -160,13 +160,13 @@ class Topics extends Component {
     }
 }
 
-// const mapStateToProps = state => {
-//     console.log(state.data.UserId.data);
-//     return {
-//         topics: state.data.Topics,
-//         userId: state.data.UserId.data,
-//         role: state.data.Role.data.Role
-//     }
-// };
+const mapStateToProps = state => {
+    console.log(state.data.UserId.data);
+    return {
+        topics: state.data.Topics,
+        userId: state.data.UserId.data,
+        role: state.data.Role.data.Role
+    }
+};
 
-export default (Topics)
+export default connect(mapStateToProps)(Topics)
